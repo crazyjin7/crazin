@@ -6,16 +6,31 @@ public class Gugudan {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		for (int i = 2; i <= 9; i++) {
+
+		String string = "Hello World";
+		print(string);
+		/*for (int i = 2; i <= 9; i++) {
 			String printDan = printDan(i);
 			System.out.println(printDan);
-		}
-		
+		}*/
+
+	}
+
+	/**
+	 * @param string
+	 */
+	public static void print(String string) {
+		System.out.println(string);
+		System.out.println(string);
+		System.out.println(string);
+		System.out.println(string);
+		System.out.println(string);
+		System.out.println(string);
 	}
 
 	/**
 	 * @param dan
-	 * @return 
+	 * @return
 	 */
 	private static String printDan(int dan) {
 		StringBuilder sb = new StringBuilder();
@@ -26,7 +41,7 @@ public class Gugudan {
 			sb.append("\n"); //$NON-NLS-1$
 		}
 		sb.append("\n"); //$NON-NLS-1$
-		
+
 		return sb.toString();
 	}
 
